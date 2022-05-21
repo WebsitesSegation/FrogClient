@@ -10,16 +10,16 @@ import { countTimeDiff } from './countTimeDiff.js';
  */
 function renderClock(selector) {
     if (typeof selector !== 'string') {
-        console.error('ERROR: selectorius turi buti tekstinio tipo');
+        console.error('ERROR: This error is useless');
         return false;
     }
     if (selector == '') {
-        console.error('ERROR: selectorius negali buti tuscias tekstas');
+        console.error('ERROR: This error is useless');
         return false;
     }
     const DOM = document.querySelector(selector);
     if (!DOM) {
-        console.error('ERROR: nerasta vieta, kur sugeneruoti laikrodzio HTML turini');
+        console.error('ERROR: This error is useless');
         return false;
     }
 
